@@ -1,0 +1,33 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: true
+    jwt:
+      secret: "CHOSON_SECRET_KEY"
+      access-expiration: 30000 # 15 min
+      refresh-expiration: 604800000 # 7 days
+
+jwt:
+  secret: "sweet-app-jwt-secret-key-must-be-at-least-32-characters-long-for-hs256"
+  access-expiration: 900000
+  refresh-expiration: 604800000
+
+app:
+  cors:
+    allowed-origins: ${APP_CORS_ALLOWED_ORIGINS:http://localhost:5173}
+
+server:
+  port: 8080

@@ -1,0 +1,177 @@
+{
+  "eslint.config.js": {
+    "mtime": 1782665185.6540642,
+    "ast_hash": "473631b2ffa2539647e1eea20ee9b515",
+    "semantic_hash": ""
+  },
+  "package.json": {
+    "mtime": 1783107388.9419327,
+    "ast_hash": "1057ae9c1a44d91f1746e3f763fd567b",
+    "semantic_hash": ""
+  },
+  "postcss.config.js": {
+    "mtime": 1782069635.509531,
+    "ast_hash": "ef3ba2a81ba19f8ea5ddf625521e96f0",
+    "semantic_hash": ""
+  },
+  "src/App.tsx": {
+    "mtime": 1782850526.382829,
+    "ast_hash": "107737dfc4732658df72d67997e6ed61",
+    "semantic_hash": ""
+  },
+  "src/api/auth.ts": {
+    "mtime": 1782650309.4841108,
+    "ast_hash": "941df0bdd3971efd8bf6adff09d0f533",
+    "semantic_hash": ""
+  },
+  "src/api/client.ts": {
+    "mtime": 1782689266.8107507,
+    "ast_hash": "4db6c565715eb20639587c227d2490a9",
+    "semantic_hash": ""
+  },
+  "src/api/clients.ts": {
+    "mtime": 1782072119.1172376,
+    "ast_hash": "38ac95500fe294670001cb6b9321670a",
+    "semantic_hash": ""
+  },
+  "src/api/invoices.ts": {
+    "mtime": 1782665164.275616,
+    "ast_hash": "af47bdebee81fa4fc49dc6e6be0ed8f5",
+    "semantic_hash": ""
+  },
+  "src/api/products.ts": {
+    "mtime": 1782315930.6630988,
+    "ast_hash": "baa6778d37eee8463d27738c660d1c10",
+    "semantic_hash": ""
+  },
+  "src/components/Layout.tsx": {
+    "mtime": 1782850525.188901,
+    "ast_hash": "ceb514d90e2ccecad97ceffb5e27ed07",
+    "semantic_hash": ""
+  },
+  "src/components/ProtectedRoute.tsx": {
+    "mtime": 1782073181.1234407,
+    "ast_hash": "a30ad4fd11486794d9f27b1787e9d562",
+    "semantic_hash": ""
+  },
+  "src/context/AuthContext.tsx": {
+    "mtime": 1782689274.09505,
+    "ast_hash": "fc546f491dcbcefbde48a30de7810849",
+    "semantic_hash": ""
+  },
+  "src/context/ToastContext.tsx": {
+    "mtime": 1782072127.085861,
+    "ast_hash": "13e1ada29b5cd86b75507f3a39b80e21",
+    "semantic_hash": ""
+  },
+  "src/main.tsx": {
+    "mtime": 1782072173.6590798,
+    "ast_hash": "ca240e63f02797d0217765ddd0be28bc",
+    "semantic_hash": ""
+  },
+  "src/pages/ClientDetail.tsx": {
+    "mtime": 1783107781.8879206,
+    "ast_hash": "4d8cfdea71afedf8d712102f676785c3",
+    "semantic_hash": ""
+  },
+  "src/pages/ClientForm.tsx": {
+    "mtime": 1783094977.9997158,
+    "ast_hash": "06eaa9ca4f0bf58d8f663897e2a1d908",
+    "semantic_hash": ""
+  },
+  "src/pages/Dashboard.tsx": {
+    "mtime": 1783095006.2085729,
+    "ast_hash": "7b916f7a3fe23e631594592d394a18bc",
+    "semantic_hash": ""
+  },
+  "src/pages/InvoiceDashboard.tsx": {
+    "mtime": 1783107763.9457362,
+    "ast_hash": "d5d16e4085bb4af21596b97cef087061",
+    "semantic_hash": ""
+  },
+  "src/pages/InvoiceDetail.tsx": {
+    "mtime": 1783107774.4796872,
+    "ast_hash": "ef6f821033f5a639630490cdac1c7ee6",
+    "semantic_hash": ""
+  },
+  "src/pages/InvoiceForm.tsx": {
+    "mtime": 1783107730.3301504,
+    "ast_hash": "16a1837da91a5e7bb5851605c43dde34",
+    "semantic_hash": ""
+  },
+  "src/pages/Login.tsx": {
+    "mtime": 1782689251.3674157,
+    "ast_hash": "b0ad6de4ad49687a25f2fe5ca220af68",
+    "semantic_hash": ""
+  },
+  "src/pages/ProductDashboard.tsx": {
+    "mtime": 1783095027.6804476,
+    "ast_hash": "bc6d83dfc45428a9e187206a5283a0d6",
+    "semantic_hash": ""
+  },
+  "src/pages/ProductDetail.tsx": {
+    "mtime": 1782958053.7771583,
+    "ast_hash": "c43d4e6339710f60b2ed9819aa64ecf3",
+    "semantic_hash": ""
+  },
+  "src/pages/ProductForm.tsx": {
+    "mtime": 1783095074.057908,
+    "ast_hash": "6c758ac19bc9cc74ec74664c87dcc04b",
+    "semantic_hash": ""
+  },
+  "src/pages/Register.tsx": {
+    "mtime": 1782689251.3734295,
+    "ast_hash": "a094b9f299a39ebde13ad858a45e8bc5",
+    "semantic_hash": ""
+  },
+  "src/types.ts": {
+    "mtime": 1783094933.8698165,
+    "ast_hash": "2b2527b0e7829b22e613c926f8a7fb41",
+    "semantic_hash": ""
+  },
+  "src/vite-env.d.ts": {
+    "mtime": 1782072108.7381115,
+    "ast_hash": "0352474ba2918efe13895edbc3780d94",
+    "semantic_hash": ""
+  },
+  "tailwind.config.js": {
+    "mtime": 1782504362.637482,
+    "ast_hash": "01566c68c7c69fe0cd36fceb417b0c8b",
+    "semantic_hash": ""
+  },
+  "tsconfig.json": {
+    "mtime": 1782072108.3285809,
+    "ast_hash": "b72348965a7343aa57ddd7be146671f8",
+    "semantic_hash": ""
+  },
+  "vite.config.js": {
+    "mtime": 1782504154.473821,
+    "ast_hash": "c0555e6e4aace4e09ffb516e8bcc316e",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1782060320.368373,
+    "ast_hash": "a28dc4cb878325f3e9e5649f3e1469ac",
+    "semantic_hash": ""
+  },
+  "index.html": {
+    "mtime": 1782072181.133628,
+    "ast_hash": "70c209124e53dab2cc914569ae4ab3dd",
+    "semantic_hash": ""
+  },
+  "public/icons.svg": {
+    "mtime": 1782060320.3989048,
+    "ast_hash": "3b4fcfcf393eca4d264dca4a4663bc37",
+    "semantic_hash": ""
+  },
+  "src/api/invoiceSettings.ts": {
+    "mtime": 1782850514.6144984,
+    "ast_hash": "f48cbbf1f44af68eb518ee9a2e4b4d2c",
+    "semantic_hash": ""
+  },
+  "src/pages/InvoiceSettings.tsx": {
+    "mtime": 1782850520.960009,
+    "ast_hash": "049020db5d80303c5c545c9990a9988c",
+    "semantic_hash": ""
+  }
+}

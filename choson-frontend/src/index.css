@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-surface text-gray-200 antialiased;
+  }
+
+  input, textarea, select {
+    @apply bg-surface-card border-surface-border text-gray-200 rounded-md;
+  }
+
+  input:focus, textarea:focus, select:focus {
+    @apply border-gray-500 ring-1 ring-gray-500 outline-none;
+  }
+
+  table {
+    @apply w-full text-sm;
+  }
+}

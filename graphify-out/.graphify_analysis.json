@@ -1,0 +1,575 @@
+{
+  "communities": {
+    "0": [
+      "api_auth",
+      "api_auth_getme",
+      "api_auth_login",
+      "api_auth_logout",
+      "api_auth_register",
+      "api_client",
+      "api_client_apidelete",
+      "api_client_apifetch",
+      "api_client_apiget",
+      "api_client_apipost",
+      "api_client_apiput",
+      "api_client_buildoptions",
+      "api_client_dorefresh",
+      "api_client_handleresponse",
+      "api_client_options",
+      "api_clients",
+      "api_clients_createclient",
+      "api_clients_deleteclient",
+      "api_clients_getclient",
+      "api_clients_getclients",
+      "api_clients_updateclient",
+      "components_layout",
+      "components_layout_layout",
+      "components_protectedroute",
+      "components_protectedroute_protectedroute",
+      "context_authcontext",
+      "context_authcontext_authcontext",
+      "context_authcontext_authcontextvalue",
+      "context_authcontext_authprovider",
+      "context_authcontext_useauth",
+      "context_toastcontext",
+      "context_toastcontext_toastcontext",
+      "context_toastcontext_toastcontextvalue",
+      "context_toastcontext_toastprovider",
+      "context_toastcontext_usetoast",
+      "pages_clientdetail",
+      "pages_clientdetail_clientdetail",
+      "pages_clientform",
+      "pages_clientform_clientform",
+      "pages_dashboard",
+      "pages_dashboard_dashboard",
+      "pages_login",
+      "pages_login_login",
+      "pages_register",
+      "pages_register_register",
+      "src_app",
+      "src_app_app",
+      "src_main",
+      "src_types",
+      "src_types_apiresponse",
+      "src_types_client",
+      "src_types_clientformdata",
+      "src_types_toast",
+      "src_types_toasttype",
+      "src_types_user"
+    ],
+    "1": [
+      "clientrepository",
+      "clients_clientcontroller_clientcontroller_clientcontroller",
+      "clients_clientrepository",
+      "clients_clientrepository_clientrepository",
+      "clients_clientrepository_clientrepository_existsbyid",
+      "clients_clientrepository_clientrepository_existsbyname",
+      "clients_clientrepository_clientrepository_findbycreatorid",
+      "clients_clientrepository_clientrepository_findbyid",
+      "clients_clientrepository_clientrepository_findbyname",
+      "clients_clientserviceimpl",
+      "clients_clientserviceimpl_clientserviceimpl",
+      "clients_clientserviceimpl_clientserviceimpl_clientserviceimpl",
+      "clients_clientserviceimpl_clientserviceimpl_createclient",
+      "clients_clientserviceimpl_clientserviceimpl_deleteclient",
+      "clients_clientserviceimpl_clientserviceimpl_getallbycreatorid",
+      "clients_clientserviceimpl_clientserviceimpl_getallclients",
+      "clients_clientserviceimpl_clientserviceimpl_getclientbyid",
+      "clients_clientserviceimpl_clientserviceimpl_updateclient",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_clients_clientcontroller_java_clientservice",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_clients_clientrepository_java_boolean",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_clients_clientrepository_java_client",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_clients_clientrepository_java_list",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_clients_clientrepository_java_optional",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_clients_clientrepository_java_string",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_clients_clientrepository_java_uuid",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_clients_clientserviceimpl_java_clientcreaterequest",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_clients_clientserviceimpl_java_clientdeleteresponse",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_clients_clientserviceimpl_java_clientresponse",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_clients_clientserviceimpl_java_clientupdaterequest",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_clients_clientserviceimpl_java_list",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_clients_clientserviceimpl_java_override",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_clients_clientserviceimpl_java_uuid"
+    ],
+    "2": [
+      "choson_frontend_package",
+      "choson_frontend_package_dependencies",
+      "choson_frontend_package_dependencies_react",
+      "choson_frontend_package_dependencies_react_dom",
+      "choson_frontend_package_dependencies_react_router_dom",
+      "choson_frontend_package_devdependencies",
+      "choson_frontend_package_devdependencies_autoprefixer",
+      "choson_frontend_package_devdependencies_eslint",
+      "choson_frontend_package_devdependencies_eslint_js",
+      "choson_frontend_package_devdependencies_eslint_plugin_react_hooks",
+      "choson_frontend_package_devdependencies_eslint_plugin_react_refresh",
+      "choson_frontend_package_devdependencies_globals",
+      "choson_frontend_package_devdependencies_postcss",
+      "choson_frontend_package_devdependencies_tailwindcss",
+      "choson_frontend_package_devdependencies_types_react",
+      "choson_frontend_package_devdependencies_types_react_dom",
+      "choson_frontend_package_devdependencies_typescript",
+      "choson_frontend_package_devdependencies_vite",
+      "choson_frontend_package_devdependencies_vitejs_plugin_react",
+      "choson_frontend_package_name",
+      "choson_frontend_package_private",
+      "choson_frontend_package_scripts",
+      "choson_frontend_package_scripts_build",
+      "choson_frontend_package_scripts_dev",
+      "choson_frontend_package_scripts_lint",
+      "choson_frontend_package_scripts_preview",
+      "choson_frontend_package_type",
+      "choson_frontend_package_version"
+    ],
+    "3": [
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_user_authserviceimpl_java_boolean",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_user_authserviceimpl_java_jwtutil",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_user_authserviceimpl_java_loginrequest",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_user_authserviceimpl_java_logintokens",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_user_authserviceimpl_java_override",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_user_authserviceimpl_java_registerrequest",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_user_authserviceimpl_java_string",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_user_authserviceimpl_java_userresponse",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_user_authserviceimpl_java_uuid",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_user_user_java_string",
+      "runtimeexception",
+      "user_authserviceimpl",
+      "user_authserviceimpl_authserviceimpl",
+      "user_authserviceimpl_authserviceimpl_authserviceimpl",
+      "user_authserviceimpl_authserviceimpl_checkpassword",
+      "user_authserviceimpl_authserviceimpl_getcurrentuser",
+      "user_authserviceimpl_authserviceimpl_hashpassword",
+      "user_authserviceimpl_authserviceimpl_login",
+      "user_authserviceimpl_authserviceimpl_refresh",
+      "user_authserviceimpl_authserviceimpl_register",
+      "user_authserviceimpl_authserviceimpl_saverefreshtoken",
+      "user_user",
+      "user_user_user",
+      "user_user_user_gethashedpassword",
+      "user_user_user_gettoken",
+      "user_user_user_sethashedpassword",
+      "user_user_user_settoken",
+      "userrepository"
+    ],
+    "4": [
+      "httpservletresponse",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_user_usercontroller_java_apiresponse",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_user_usercontroller_java_authservice",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_user_usercontroller_java_getmapping",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_user_usercontroller_java_httpservletrequest",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_user_usercontroller_java_jwtutil",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_user_usercontroller_java_loginrequest",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_user_usercontroller_java_postmapping",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_user_usercontroller_java_registerrequest",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_user_usercontroller_java_responseentity",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_user_usercontroller_java_string",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_user_usercontroller_java_userresponse",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_user_usercontroller_java_void",
+      "user_usercontroller",
+      "user_usercontroller_usercontroller",
+      "user_usercontroller_usercontroller_clearcookie",
+      "user_usercontroller_usercontroller_extractcookie",
+      "user_usercontroller_usercontroller_login",
+      "user_usercontroller_usercontroller_logout",
+      "user_usercontroller_usercontroller_me",
+      "user_usercontroller_usercontroller_refresh",
+      "user_usercontroller_usercontroller_register",
+      "user_usercontroller_usercontroller_setcookie",
+      "user_usercontroller_usercontroller_usercontroller"
+    ],
+    "5": [
+      "filter",
+      "filterchain",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_shared_authfilter_java_httpservletrequest",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_shared_authfilter_java_jwtutil",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_shared_authfilter_java_override",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_shared_authfilter_java_string",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_shared_jwtutil_java_string",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_shared_jwtutil_java_uuid",
+      "servletrequest",
+      "servletresponse",
+      "shared_authfilter",
+      "shared_authfilter_authfilter",
+      "shared_authfilter_authfilter_authfilter",
+      "shared_authfilter_authfilter_dofilter",
+      "shared_authfilter_authfilter_extractcookie",
+      "shared_jwtutil",
+      "shared_jwtutil_jwtutil",
+      "shared_jwtutil_jwtutil_generateaccesstoken",
+      "shared_jwtutil_jwtutil_generaterefreshtoken",
+      "shared_jwtutil_jwtutil_getuseridfromtoken",
+      "shared_jwtutil_jwtutil_jwtutil",
+      "shared_jwtutil_jwtutil_validatetoken"
+    ],
+    "6": [
+      "clients_clientcontroller",
+      "clients_clientcontroller_clientcontroller",
+      "clients_clientcontroller_clientcontroller_createclient",
+      "clients_clientcontroller_clientcontroller_deleteclient",
+      "clients_clientcontroller_clientcontroller_getallclients",
+      "clients_clientcontroller_clientcontroller_getclientbyid",
+      "clients_clientcontroller_clientcontroller_updateclient",
+      "deletemapping",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_clients_clientcontroller_java_apiresponse",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_clients_clientcontroller_java_clientcreaterequest",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_clients_clientcontroller_java_clientresponse",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_clients_clientcontroller_java_clientupdaterequest",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_clients_clientcontroller_java_getmapping",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_clients_clientcontroller_java_httpservletrequest",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_clients_clientcontroller_java_iterable",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_clients_clientcontroller_java_postmapping",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_clients_clientcontroller_java_responseentity",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_clients_clientcontroller_java_uuid",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_clients_clientcontroller_java_void",
+      "putmapping",
+      "responsebody"
+    ],
+    "7": [
+      "choson_frontend_tsconfig",
+      "choson_frontend_tsconfig_compileroptions",
+      "choson_frontend_tsconfig_compileroptions_allowimportingtsextensions",
+      "choson_frontend_tsconfig_compileroptions_forceconsistentcasinginfilenames",
+      "choson_frontend_tsconfig_compileroptions_isolatedmodules",
+      "choson_frontend_tsconfig_compileroptions_jsx",
+      "choson_frontend_tsconfig_compileroptions_lib",
+      "choson_frontend_tsconfig_compileroptions_module",
+      "choson_frontend_tsconfig_compileroptions_moduledetection",
+      "choson_frontend_tsconfig_compileroptions_moduleresolution",
+      "choson_frontend_tsconfig_compileroptions_noemit",
+      "choson_frontend_tsconfig_compileroptions_nofallthroughcasesinswitch",
+      "choson_frontend_tsconfig_compileroptions_nounusedlocals",
+      "choson_frontend_tsconfig_compileroptions_nounusedparameters",
+      "choson_frontend_tsconfig_compileroptions_skiplibcheck",
+      "choson_frontend_tsconfig_compileroptions_strict",
+      "choson_frontend_tsconfig_compileroptions_target",
+      "choson_frontend_tsconfig_compileroptions_usedefineforclassfields",
+      "choson_frontend_tsconfig_include"
+    ],
+    "8": [
+      "exceptionhandler",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_shared_apiresponse_java_string",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_shared_globalexceptionhandler_java_apiresponse",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_shared_globalexceptionhandler_java_responseentity",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_shared_globalexceptionhandler_java_void",
+      "shared_apiresponse",
+      "shared_apiresponse_apiresponse",
+      "shared_apiresponse_apiresponse_apiresponse",
+      "shared_apiresponse_apiresponse_getdata",
+      "shared_apiresponse_apiresponse_getmessage",
+      "shared_apiresponse_apiresponse_setdata",
+      "shared_apiresponse_apiresponse_setmessage",
+      "shared_globalexceptionhandler",
+      "shared_globalexceptionhandler_globalexceptionhandler",
+      "shared_globalexceptionhandler_globalexceptionhandler_handleruntime",
+      "t"
+    ],
+    "9": [
+      "clients_clientservice",
+      "clients_clientservice_clientservice",
+      "clients_clientservice_clientservice_createclient",
+      "clients_clientservice_clientservice_deleteclient",
+      "clients_clientservice_clientservice_getallbycreatorid",
+      "clients_clientservice_clientservice_getallclients",
+      "clients_clientservice_clientservice_getclientbyid",
+      "clients_clientservice_clientservice_updateclient",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_clients_clientservice_java_clientcreaterequest",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_clients_clientservice_java_clientdeleteresponse",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_clients_clientservice_java_clientresponse",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_clients_clientservice_java_clientupdaterequest",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_clients_clientservice_java_iterable",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_clients_clientservice_java_list",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_clients_clientservice_java_uuid"
+    ],
+    "10": [
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_user_authservice_java_loginrequest",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_user_authservice_java_logintokens",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_user_authservice_java_registerrequest",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_user_authservice_java_string",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_user_authservice_java_userresponse",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_user_authservice_java_uuid",
+      "user_authservice",
+      "user_authservice_authservice",
+      "user_authservice_authservice_getcurrentuser",
+      "user_authservice_authservice_login",
+      "user_authservice_authservice_refresh",
+      "user_authservice_authservice_register",
+      "user_authservice_authservice_saverefreshtoken"
+    ],
+    "11": [
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_user_userrepository_java_boolean",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_user_userrepository_java_optional",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_user_userrepository_java_string",
+      "user",
+      "user_userrepository",
+      "user_userrepository_userrepository",
+      "user_userrepository_userrepository_existsbyname",
+      "user_userrepository_userrepository_findbyname"
+    ],
+    "12": [
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_sweetapplication_java_getmapping",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_sweetapplication_java_string",
+      "sweet_sweetapplication",
+      "sweet_sweetapplication_sweetapplication",
+      "sweet_sweetapplication_sweetapplication_hello",
+      "sweet_sweetapplication_sweetapplication_main"
+    ],
+    "13": [
+      "dto_logintokens",
+      "dto_logintokens_logintokens",
+      "dto_logintokens_logintokens_logintokens",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_user_dto_logintokens_java_string",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_user_dto_logintokens_java_userresponse"
+    ],
+    "14": [
+      "dto_userresponse",
+      "dto_userresponse_userresponse",
+      "dto_userresponse_userresponse_userresponse",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_user_dto_userresponse_java_string",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_user_dto_userresponse_java_uuid"
+    ],
+    "15": [
+      "dto_clientresponse",
+      "dto_clientresponse_clientresponse",
+      "dto_clientresponse_clientresponse_clientresponse",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_clients_dto_clientresponse_java_client"
+    ],
+    "16": [
+      "dto_loginresponse",
+      "dto_loginresponse_loginresponse",
+      "dto_loginresponse_loginresponse_loginresponse",
+      "javaspring_choson_backend_src_main_java_com_choson_sweet_domain_user_dto_loginresponse_java_string"
+    ],
+    "17": [
+      "sweet_sweetapplicationtests",
+      "sweet_sweetapplicationtests_sweetapplicationtests",
+      "sweet_sweetapplicationtests_sweetapplicationtests_contextloads",
+      "test"
+    ],
+    "18": [
+      "clients_client",
+      "clients_client_client"
+    ],
+    "19": [
+      "clients_clientrequest",
+      "clients_clientrequest_clientrequest"
+    ],
+    "20": [
+      "dto_clientcreaterequest",
+      "dto_clientcreaterequest_clientcreaterequest"
+    ],
+    "21": [
+      "dto_clientdeleteresponse",
+      "dto_clientdeleteresponse_clientdeleteresponse"
+    ],
+    "22": [
+      "dto_clientupdaterequest",
+      "dto_clientupdaterequest_clientupdaterequest"
+    ],
+    "23": [
+      "dto_loginrequest",
+      "dto_loginrequest_loginrequest"
+    ],
+    "24": [
+      "dto_registerrequest",
+      "dto_registerrequest_registerrequest"
+    ],
+    "25": [
+      "plugins_graphify",
+      "plugins_graphify_graphifyplugin"
+    ],
+    "26": [
+      "products_product",
+      "products_product_product"
+    ],
+    "27": [
+      "products_productcontroller",
+      "products_productcontroller_productcontroller"
+    ],
+    "28": [
+      "products_productrepository",
+      "products_productrepository_productrepository"
+    ],
+    "29": [
+      "products_productservice",
+      "products_productservice_productservice"
+    ],
+    "30": [
+      "products_productserviceimpl",
+      "products_productserviceimpl_productserviceimpl"
+    ],
+    "31": [
+      "choson_frontend_eslint_config"
+    ],
+    "32": [
+      "choson_frontend_postcss_config"
+    ],
+    "33": [
+      "choson_frontend_tailwind_config"
+    ],
+    "34": [
+      "choson_frontend_vite_config"
+    ],
+    "35": [
+      "javaspring_choson_backend_build"
+    ],
+    "36": [
+      "javaspring_choson_backend_settings"
+    ],
+    "37": [
+      "src_vite_env_d"
+    ]
+  },
+  "cohesion": {
+    "0": 0.0936026936026936,
+    "1": 0.12701612903225806,
+    "2": 0.07142857142857142,
+    "3": 0.15079365079365079,
+    "4": 0.20652173913043478,
+    "5": 0.15151515151515152,
+    "6": 0.22380952380952382,
+    "7": 0.10526315789473684,
+    "8": 0.175,
+    "9": 0.26666666666666666,
+    "10": 0.2692307692307692,
+    "11": 0.32142857142857145,
+    "12": 0.4666666666666667,
+    "13": 0.4,
+    "14": 0.5,
+    "15": 0.6666666666666666,
+    "16": 0.5,
+    "17": 0.6666666666666666,
+    "18": 1.0,
+    "19": 1.0,
+    "20": 1.0,
+    "21": 1.0,
+    "22": 1.0,
+    "23": 1.0,
+    "24": 1.0,
+    "25": 1.0,
+    "26": 1.0,
+    "27": 1.0,
+    "28": 1.0,
+    "29": 1.0,
+    "30": 1.0,
+    "31": 1.0,
+    "32": 1.0,
+    "33": 1.0,
+    "34": 1.0,
+    "35": 1.0,
+    "36": 1.0,
+    "37": 1.0
+  },
+  "gods": [
+    {
+      "id": "choson_frontend_tsconfig_compileroptions",
+      "label": "compilerOptions",
+      "degree": 17
+    },
+    {
+      "id": "runtimeexception",
+      "label": "RuntimeException",
+      "degree": 11
+    },
+    {
+      "id": "user_authserviceimpl_authserviceimpl",
+      "label": "AuthServiceImpl",
+      "degree": 10
+    },
+    {
+      "id": "user_usercontroller_usercontroller",
+      "label": "UserController",
+      "degree": 10
+    },
+    {
+      "id": "api_client_apipost",
+      "label": "apiPost()",
+      "degree": 9
+    },
+    {
+      "id": "context_authcontext_useauth",
+      "label": "useAuth()",
+      "degree": 9
+    },
+    {
+      "id": "context_toastcontext_usetoast",
+      "label": "useToast()",
+      "degree": 9
+    },
+    {
+      "id": "clients_clientserviceimpl_clientserviceimpl",
+      "label": "ClientServiceImpl",
+      "degree": 9
+    },
+    {
+      "id": "api_client_apiget",
+      "label": "apiGet()",
+      "degree": 8
+    },
+    {
+      "id": "api_client_apifetch",
+      "label": "apiFetch()",
+      "degree": 7
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Register()",
+      "target": "useAuth()",
+      "source_files": [
+        "choson-frontend/src/pages/Register.tsx",
+        "choson-frontend/src/context/AuthContext.tsx"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "peripheral node `Register()` unexpectedly reaches hub `useAuth()`"
+    },
+    {
+      "source": "ClientDetail()",
+      "target": "useToast()",
+      "source_files": [
+        "choson-frontend/src/pages/ClientDetail.tsx",
+        "choson-frontend/src/context/ToastContext.tsx"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "peripheral node `ClientDetail()` unexpectedly reaches hub `useToast()`"
+    },
+    {
+      "source": "ClientForm()",
+      "target": "useToast()",
+      "source_files": [
+        "choson-frontend/src/pages/ClientForm.tsx",
+        "choson-frontend/src/context/ToastContext.tsx"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "peripheral node `ClientForm()` unexpectedly reaches hub `useToast()`"
+    },
+    {
+      "source": "Dashboard()",
+      "target": "useToast()",
+      "source_files": [
+        "choson-frontend/src/pages/Dashboard.tsx",
+        "choson-frontend/src/context/ToastContext.tsx"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "peripheral node `Dashboard()` unexpectedly reaches hub `useToast()`"
+    },
+    {
+      "source": "ClientServiceImpl",
+      "target": "ClientService",
+      "source_files": [
+        "javaspring-choson-backend/src/main/java/com/choson/sweet/domain/clients/ClientServiceImpl.java",
+        "javaspring-choson-backend/src/main/java/com/choson/sweet/domain/clients/ClientController.java"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "implements",
+      "why": "peripheral node `ClientService` unexpectedly reaches hub `ClientServiceImpl`"
+    }
+  ],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}

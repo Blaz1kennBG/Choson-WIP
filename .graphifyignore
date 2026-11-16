@@ -1,0 +1,18 @@
+# Skip documentation, config, and image files for code-only extraction
+*.md
+*.html
+*.yml
+*.yaml
+*.properties
+*.svg
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.pdf
+*.docx
+*.xlsx
+*.log
+*.txt
+*.rst
